@@ -4,7 +4,8 @@
   "description": "Cross platform network utilities for Node.js (gateway_ip, MAC address, etc)",
   "main": "./lib/index.js",
   "scripts": {
-    "test": "node test.js"
+    "test": "node test.js",
+    "eslint": "eslint --fix **/*.js"
   },
   "bin": {
     "network": "./bin/network"
